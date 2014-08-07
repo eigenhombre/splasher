@@ -7,7 +7,7 @@ Swing for splash screens.
 
 Add dependency to `project.clj`:
 
-     [eigenhombre/splasher "0.1.0"]
+     [eigenhombre/splasher "0.0.2"]
 
 Use `splash!`, something like the following (see `src/splasher/example.clj`):
 
@@ -22,7 +22,7 @@ Use `splash!`, something like the following (see `src/splasher/example.clj`):
 
 Duration defaults to 2500 msec.
 
-The splash file image will usually be located in the project resources
+The splash image file should be located in the project resources
 directory for your project (usually `resources/`), as shown.
 
 The `System/exit` is required for your Seesaw / Swing app to exit.

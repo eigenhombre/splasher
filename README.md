@@ -27,7 +27,7 @@ directory for your project (usually, `resources`).
 
 The `System/exit` is required for your Seesaw / Swing app to exit.
 
-`lein run` will run the included example.
+In the Splasher project, `lein run` will run the included example.
 
 ## License
 

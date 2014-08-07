@@ -5,11 +5,11 @@ Swing for splash screens.
 
 ## Usage
 
-1. Add dependency to `project.clj`:
+Add dependency to `project.clj`:
 
      [eigenhombre/splasher "0.1.0"]
 
-1. Use `splash!`, something like the following (see `src/splasher/example.clj`):
+Use `splash!`, something like the following (see `src/splasher/example.clj`):
 
      (ns try-splasher.core
        (:gen-class)

@@ -17,13 +17,13 @@ Use `splash!`, something like the following (see `src/splasher/example.clj`):
      
      
      (defn -main []
-       (splash! :duration 2000 :filename "splash.jpg")
+       (splash! (clojure.java.io/resource "splash.png") :duration 2000)
        (System/exit 0))
 
-Filename defaults to `splash.png`; duration defaults to 2500 msec.
+Duration defaults to 2500 msec.
 
-The splash file image must be located in the project resources
-directory for your project (usually, `resources`).
+The splash file image will usually be located in the project resources
+directory for your project (usually `resources/`), as shown.
 
 The `System/exit` is required for your Seesaw / Swing app to exit.
 

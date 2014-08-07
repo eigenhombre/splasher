@@ -7,5 +7,5 @@
 
 (defn -main []
   (native!)
-  (splash! :duration 2400)
+  (splash! (clojure.java.io/resource "splash.png") :duration 2400)
   (System/exit 0))

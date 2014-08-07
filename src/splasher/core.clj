@@ -24,11 +24,9 @@
   Use Seesaw to display an undecorated window based on graphic in
   resources directory (splash screen).
   "
-  [& {:keys [duration filename height width]
-      :or {duration 2500
-           filename "splash.png"}}]
+  [resource-file & {:keys [duration filename height width]
+                    :or {duration 2500}}]
   (let [[scrw scrh] (screen-size)
-        resource-file (clojure.java.io/resource filename)
         img_bg (icon resource-file)
         [imgw imgh] (image-size resource-file)
         xpos (/ (- scrw imgw) 2)

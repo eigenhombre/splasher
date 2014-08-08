@@ -1,7 +1,9 @@
 # Splasher
 
 A small library built on [Seesaw](https://github.com/daveray/seesaw) /
-Swing for splash screens.
+Swing for splash screens.  You know, those annoying windows with
+splashy graphics that appear briefly, usually to distract the user
+while the rest of the application is loading.
 
 ## Usage
 
